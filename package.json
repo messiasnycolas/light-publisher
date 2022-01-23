@@ -1,0 +1,16 @@
+{
+  "name": "light-publisher",
+  "version": "0.0.1",
+  "description": "Extremely light API for publishing in gcloud topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nycolas Messias",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.18.4",
+    "express": "^4.17.2"
+  },
+  "type": "module"
+}
