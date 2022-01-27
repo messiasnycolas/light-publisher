@@ -1,7 +1,7 @@
 # GCP Pub/Sub Light Publisher
 
 Make a localhost http call to publish messages to your GCP pub/sub topic following these steps:
-- add your service account json to root
+- add your service account json to project root, and rename it to `gcp-key.json`
 
 - run `npm install && node src/index.js` **OR** `docker build -d light-publisher . && docker run -p 3007:3007 light-publisher`
 
